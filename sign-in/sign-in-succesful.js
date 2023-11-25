@@ -1,7 +1,7 @@
 let userData = {};
 if (!localStorage.getItem("userData")) {
   alert("You need to sign up!");
-  window.location.href = "/index.html";
+  window.location.href = "https://sheebakk.github.io/F3-Contest2-Nov-SignUp/";
 }
 userData = JSON.parse(localStorage.getItem("userData"));
 console.log(userData);
@@ -14,5 +14,5 @@ userInfo.innerHTML = `
 `;
 document.getElementById("logout").addEventListener("click",()=>{
     localStorage.removeItem('userData');
-    window.location.href = "/index.html"
+    window.location.href = "https://sheebakk.github.io/F3-Contest2-Nov-SignUp/"
 });
